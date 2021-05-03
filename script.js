@@ -15,7 +15,7 @@ function computerPlay(){
   
   function checkWinner(playerSelection, computerSelection){  
     computerSelection = computerPlay();                // pulls function computerPlay
-    playerSelection = playerSelection.toLowerCase();  // Link this to alert 
+    playerSelection = playerSelection.toLowerCase();  
   
     let result = '';
     
