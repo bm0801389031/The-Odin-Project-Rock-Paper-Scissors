@@ -48,9 +48,9 @@ function computerPlay(){
   let compCount = 0; 
   
   
-  function playRound(playerMove) {                              // pulls our playerInput prompt
+  function playRound(playerMove) {                              
     let winnerResult = '';
-    winnerResult = checkWinner(playerMove, computerPlay());    // pulls function checkWinner and our prompt 
+    winnerResult = checkWinner(playerMove, computerPlay());    // pulls function checkWinner
     
     if (winnerResult[0] === 'win' && maxRounds > 0) {   // the output of our function [result, playerSelection, computerSelection], hence, 0 index returns our result
       playerCount += 1;
